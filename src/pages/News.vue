@@ -38,7 +38,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: `Browse all news`
+      title: `Browse all applicants`
     }
   }
 };

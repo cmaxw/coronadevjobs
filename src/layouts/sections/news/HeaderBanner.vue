@@ -8,8 +8,8 @@
     <b-container>
       <b-row class="justify-content-center text-center">
         <b-col md="10" lg="8" class="pt-3 pb-3">
-          <p class="display-4 mb-0">News</p>
-          <p class="lead">There is always something going on.</p>
+          <p class="display-4 mb-0">Applicants</p>
+          <p class="lead">Check out these awesome developers</p>
         </b-col>
 
         
