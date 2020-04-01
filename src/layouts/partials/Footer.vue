@@ -7,7 +7,7 @@
             <li class="list-inline-item mb-0">
               <b-navbar-brand class="mb-0">
                 <g-link to="/" class="nav-link text-white">
-                  <font-awesome :icon="['fas', 'plus-square']"></font-awesome>
+                  <img loading="lazy" src="/virus.png">
                   {{ $static.metadata.siteName }}
                 </g-link>
               </b-navbar-brand>
