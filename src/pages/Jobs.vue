@@ -15,12 +15,12 @@
       </b-container>
 
       <Pagination
-      baseUrl="/applicants"
-      :currentPage="$page.records.pageInfo.currentPage"
-      :totalPages="$page.records.pageInfo.totalPages"
-      :maxVisibleButtons="5"
-      v-if="$page.records.pageInfo.totalPages > 1"
-    />
+        baseUrl="/jobs"
+        :currentPage="$page.records.pageInfo.currentPage"
+        :totalPages="$page.records.pageInfo.totalPages"
+        :maxVisibleButtons="5"
+        v-if="$page.records.pageInfo.totalPages > 1"
+      />
     </section>
   </DefaultLayout>
 </template>
@@ -28,7 +28,7 @@
 <script>
 import RecordCard from "~/components/RecordCard.vue";
 import Pagination from "~/components/Pagination.vue";
-import SectionHeaderBanner from "~/layouts/sections/news/HeaderBanner.vue";
+import SectionHeaderBanner from "~/layouts/sections/articles/HeaderBanner.vue";
 
 export default {
   components: {
@@ -38,16 +38,15 @@ export default {
   },
   metaInfo() {
     return {
-      title: `Browse all news`
-    }
+      title: `Browse all jobs`
+    };
   }
 };
 </script>
 
 <page-query>
   query ($page: Int) {
-    
-    records: allNews(perPage: 9, page: $page) @paginate {
+    records: allArticle(sortBy:"createdAt", order:DESC, perPage: 9, page: $page) @paginate {
       totalCount
       pageInfo {
         totalPages

@@ -15,7 +15,7 @@
       </b-container>
 
       <Pagination
-        baseUrl="/articles"
+        baseUrl="/jobs"
         :currentPage="$page.records.pageInfo.currentPage"
         :totalPages="$page.records.pageInfo.totalPages"
         :maxVisibleButtons="5"

@@ -2,7 +2,7 @@
   <section class="pt-5">
     <b-container>
       <div class="text-center">
-        <h2>Lastest Articles</h2>
+        <h2>Lastest Jobs</h2>
         <p class="lead">Curious what new articles are on our website? Check out our latest articles!</p>
       </div>
 

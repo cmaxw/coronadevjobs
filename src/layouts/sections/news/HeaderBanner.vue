@@ -3,7 +3,7 @@
     <g-image
       src="~/resources/images/janko-ferlic-specialdaddy-sfL_QOnmy00-unsplash.jpg"
       class="jarallax-img opacity-40"
-      alt="News"
+      alt="Applicants"
     />
     <b-container>
       <b-row class="justify-content-center text-center">

@@ -18,20 +18,6 @@
           <ul class="list-inline mb-0">
             <li class="list-inline-item mb-0">
               
-                <g-link to="/pages/sample-page-1" class="nav-link">
-                  Sample Page 1
-                </g-link>
-              
-            </li>
-            <li class="list-inline-item mb-0">
-              
-                <g-link to="/pages/sample-page-2" class="nav-link">
-                  Sample Page 2
-                </g-link>
-              
-            </li>
-            <li class="list-inline-item mb-0">
-              
                 <g-link to="/credits" class="nav-link">
                   Credits
                 </g-link>
@@ -39,7 +25,7 @@
             </li>
             <li class="list-inline-item mb-0">
               <b-navbar-brand class="mb-0">
-              <a href="https://github.com/noxify/gridsome-starter-articles" target="_blank" class="nav-link text-light" alt="ITSM+ Github Repository" rel="noopener">
+              <a href="https://github.com/cmaxw/coronadevjobs" target="_blank" class="nav-link text-light" alt="CoronaDevJobs Github Repository" rel="noopener">
                 <font-awesome :icon="['fab', 'github']"></font-awesome>
               </a>
               </b-navbar-brand>

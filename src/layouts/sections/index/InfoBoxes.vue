@@ -14,12 +14,12 @@
             <p class="lead">
 
 
-              Sometimes you need a different perspective to achieve your goal. 
+              Lost your job to the pandemic? 
               <br>
-              With our articles, we want to help you to see your challenges from a different perspective and to solve them faster.
+              List yourself on this website so employers can reach out. Then browse the jobs listed here.
 
             <p class="text-center">
-              <g-link to="/articles" class="btn btn-lg btn-primary">Browse all articles</g-link>
+              <g-link to="/jobs" class="btn btn-lg btn-primary">Browse all jobs</g-link>
             </p>
           </b-col>
 

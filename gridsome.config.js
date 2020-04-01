@@ -44,7 +44,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Article',
-        baseDir: './content/articles',
+        baseDir: './content/jobs',
         path: '**/*.md',
         refs: {
           tags: {
@@ -63,7 +63,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'News',
-        baseDir: './content/news',
+        baseDir: './content/applicants',
         path: '*.md',
         refs: {
           tags: {
@@ -117,7 +117,7 @@ module.exports = {
       options: {
         cacheTime: 600000, // default
         config: {
-          '/articles/*': {
+          '/jobs/*': {
             changefreq: 'weekly',
             priority: 0.7
           },
@@ -125,7 +125,7 @@ module.exports = {
             changefreq: 'weekly',
             priority: 0.5
           },
-          '/news/*': {
+          '/applicants/*': {
             changefreq: 'weekly',
             priority: 0.5
           }
@@ -140,7 +140,7 @@ module.exports = {
           allow: "/",
           disallow: "/search",
           crawlDelay: 2,
-          cleanParam: "ref /articles/"
+          cleanParam: "ref /jobs/"
         }]
       }
     }
@@ -159,7 +159,7 @@ module.exports = {
   },
   templates: {
     Article: [{
-      path: '/articles/:title'
+      path: '/jobs/:title'
     }],
     Tag: [
       {
@@ -173,7 +173,7 @@ module.exports = {
       }
     ],
     News: [{
-      path: '/news/:title',
+      path: '/applicants/:title',
       component: './src/templates/News.vue'
     }],
     CustomPage: [{

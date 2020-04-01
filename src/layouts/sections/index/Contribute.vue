@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h4 class="font-weight-light">Did you know that you can easily create your own articles?</h4>
+            <h4 class="font-weight-light">Did you know that you can easily create your own job or applicant listing?</h4>
             <p class="lead mb-0">
               Checkout our
               <g-link

@@ -10,7 +10,7 @@
         <b-col md="10" lg="8" class="pt-3 pb-3">
           <h1 class="display-4 mb-0">Thank you</h1>
           <p class="lead">
-            Without these awesome guys, we were not able to create our site!
+            Without these awesome people, we were not able to create our site!
           </p>
         </b-col>
 

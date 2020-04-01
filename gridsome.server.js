@@ -131,7 +131,7 @@ module.exports = function (api) {
       });
 
       createPage({
-        path: `/articles/${node.slug}`,
+        path: `/jobs/${node.slug}`,
         component: './src/templates/ArticleEntry.vue',
         context: {
           recordId: node.id,

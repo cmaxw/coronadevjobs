@@ -2,7 +2,8 @@
   <section class="pt-5">
     <b-container>
       <div class="text-center">
-        <h2>Lastest Applicants</h2>
+        <h2>Lastest Jobs</h2>
+        <p class="lead">Curious what new jobs are on our website? Check out our latest jobs!</p>
       </div>
 
       <div>
@@ -30,7 +31,7 @@ export default {
 
 <static-query>
   query {
-    records: allNews(limit:3, sortBy:"createdAt") {
+    records: allArticle(limit:6, sortBy:"createdAt") {
       edges {
         node {
           title, 

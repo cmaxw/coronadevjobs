@@ -86,7 +86,7 @@ export default {
 
   methods: {
     recordLink(record) {      
-      return `/articles/${record.slug}`;
+      return `/jobs/${record.slug}`;
     }
   },
 

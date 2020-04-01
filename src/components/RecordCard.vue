@@ -35,10 +35,10 @@ export default {
   computed: {
     recordLink() {
       if( this.record.recordType == 'Article') {
-        return `/articles/${this.record.slug}`;
+        return `/jobs/${this.record.slug}`;
       }
       if( this.record.recordType == 'News') {
-        return `/news/${this.record.slug}`;
+        return `/applicants/${this.record.slug}`;
       }
 
       return this.record.path;

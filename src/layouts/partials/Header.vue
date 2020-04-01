@@ -13,9 +13,8 @@
           <b-collapse id="header-navbar" is-nav class="overlay-navigation">
             <b-navbar-nav class="ml-auto lead nav-content">
               <g-link to="/" class="nav-link" exact>Home</g-link>
-              <g-link to="/articles" class="nav-link" exact>Articles</g-link>
-              <g-link to="/resources" class="nav-link" exact>Resources</g-link>
-              <g-link to="/news" class="nav-link" exact>News</g-link>
+              <g-link to="/jobs" class="nav-link" exact>Jobs</g-link>
+              <g-link to="/applicants" class="nav-link" exact>Applicants</g-link>
               <g-link to="/pages/contribute" class="nav-link" exact>Contribute</g-link>
             </b-navbar-nav>
             <a class="closebtnNavigation" v-on:click="hideNavigation">&times;</a>
