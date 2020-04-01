@@ -22,8 +22,8 @@ var embedConfig = {
 };
 
 module.exports = {
-  siteName: 'Gridsome',
-  siteUrl: 'https://gridsome-starter-articles.now.sh',
+  siteName: 'CoronaDevJobs',
+  siteUrl: 'https://coronadevjobs.com',
   permalinks: {
     trailingSlash:false
   },

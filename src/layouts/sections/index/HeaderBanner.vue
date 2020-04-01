@@ -8,8 +8,8 @@
     <b-container>
       <b-row class="justify-content-center text-center">
         <b-col md="10" lg="8" class="pt-3 pb-3">
-          <p class="display-4 mb-0">Ready. Set. Learn.</p>
-          <p class="lead">It's never too late to learn something new!</p>
+          <p class="display-4 mb-0">Laid Off?</p>
+          <p class="lead">List a Job! List Yourself! Get a Job!</p>
         </b-col>
 
         
